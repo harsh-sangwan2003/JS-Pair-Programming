@@ -45,5 +45,6 @@ x = `12563675n`
 console.log(typeof x);
 
 x = Symbol("foo");
+console.log(x);
 // symbol
 console.log(typeof x);

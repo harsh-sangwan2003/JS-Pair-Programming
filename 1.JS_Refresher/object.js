@@ -14,6 +14,7 @@ let cap = {
 }
 
 // use ./[] operator to access the key of an object
+// . is used to access the literal property wherease [] can access properties dynamically or with strings that may include special characters or spaces
 // console.log(cap.friends);
 // console.log(cap.name);
 // console.log(cap.address.city);
@@ -22,5 +23,5 @@ let cap = {
 
 for(let key in cap){
     console.log(cap[key]);
-    // console.log(cap.key);
+    console.log(cap.key);
 }
